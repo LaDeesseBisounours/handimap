@@ -1,0 +1,12 @@
+# ninja log v5
+0	37	1572968999123026110	mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-mkdir	b7e9363ba7eb52ac
+37	48	1572968999133026109	mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-download	903cf8042726ffc8
+48	60	1572968999146359443	mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-update	ed9a92d99aba465c
+48	60	1572968999146359443	mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-patch	23446dad96abb68e
+60	71	1572968999156359444	mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-configure	8cf8578144448661
+71	858	1572968999946359458	mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-build	9e3e60454df77b20
+71	858	1572968999946359458	kconfig_bin/mconf-idf	9e3e60454df77b20
+858	870	1572968999956359458	mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-install	b536c315c5641098
+870	885	1572968999973026125	CMakeFiles/mconf-idf-complete	dc5d883e8f347220
+870	885	1572968999973026125	mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-done	dc5d883e8f347220
+885	592616	0	CMakeFiles/menuconfig	b189576f40d31625
