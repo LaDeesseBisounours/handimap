@@ -1,35 +1,10 @@
-/**
-  ******************************************************************************
-  * @file    Waveshare_10Dof-D.h
-  * @author  Waveshare Team
-  * @version V1.0
-  * @date    Dec-2018
-  * @brief   
-  
-  ******************************************************************************
-  * @attention
-  *
-  * THE PRESENT FIRMWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
-  * WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE
-  * TIME. AS A RESULT, WAVESHARE SHALL NOT BE HELD LIABLE FOR ANY
-  * DIRECT, INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING
-  * FROM THE CONTENT OF SUCH FIRMWARE AND/OR THE USE MADE BY CUSTOMERS OF THE
-  * CODING INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
-  *
-  * <h2><center>&copy; COPYRIGHT 2018 Waveshare</center></h2>
-  ******************************************************************************
-  */
-#ifndef __Waveshare_10DOF_D_H__
-#define __Waveshare_10DOF_D_H__
+#ifndef __IMU_H__
+#define __IMU_H__
 #include <stdio.h>
 #include <unistd.h>
-#include <wiringPi.h>
 #include <string.h>
 #include <stdlib.h>
-#include <linux/i2c-dev.h>
-#include <sys/ioctl.h>
 #include <sys/types.h>
-#include <fcntl.h>
 #include <stdint.h>
 #include <stddef.h>
 #include <math.h>
@@ -239,8 +214,4 @@ void pressSensorDataGet(int32_t *ps32Temperature, int32_t *ps32Pressure, int32_t
 uint8_t I2C_ReadOneByte(uint8_t DevAddr, uint8_t RegAddr);
 void I2C_WriteOneByte(uint8_t DevAddr, uint8_t RegAddr, uint8_t value);
 
-#ifdef __cplusplus
-}
-#endif
-
-#endif //__Waveshare_10DOF_D_H__
+#endif //__IMU_H__

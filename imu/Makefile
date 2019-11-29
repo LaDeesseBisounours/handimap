@@ -3,7 +3,7 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := i2c-imu
+PROJECT_NAME := imu
 
 include $(IDF_PATH)/make/project.mk
 
